@@ -22,6 +22,6 @@ services:
       - key: APP_DOMAIN
         sync: false
       - key: SECRET_KEY_BASE
-        sync: false
+        generateValue: true
       - key: SEND_GRID_KEY
         sync: false
